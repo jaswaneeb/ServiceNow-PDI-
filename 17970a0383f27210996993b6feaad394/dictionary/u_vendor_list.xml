@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e74dc20f83f27210996993b6feaad34f" label="Vendor List" max_length="40" name="u_vendor_list" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Rating" max_length="40" name="u_rating" type="integer"/>
+        <element label="Vendor Email" max_length="40" name="u_vendor_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element label="Vendor Name" max_length="40" name="u_vendor_name" type="string"/>
+    </element>
+</database>
